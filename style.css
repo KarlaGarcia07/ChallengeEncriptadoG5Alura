@@ -1,0 +1,105 @@
+*{
+  
+    font-family: 'Inter'; 
+    font-weight: 400;
+    font-size: 42px;
+    line-height: 150%;
+    border-radius: 24px;
+   
+}
+
+.logo{
+    padding-top: 0%;
+    margin-left: 10%;
+    width: 10%;
+}
+
+main{
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 80px;
+
+}
+
+::placeholder{color:#0A3871;}
+
+.text-area{
+    outline: none;
+    display: flex;
+    grid-gap: 1svw;
+    max-width: 100%;
+    margin: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-encriptado{
+    outline: none;
+    display: flex;
+    grid-gap: 1svw;
+    max-width: 100%;
+    margin: 10px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.mensaje:focus {
+    outline: none;
+}
+
+.botones{
+    display: flex;
+    margin-top: 18px;
+}
+
+.btn-desencriptar{
+    background-color: #adc6ca;
+    border: 1px solid #ffffff;
+    border-radius: 24px;
+    color:white ;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 30px;
+    width: 328px;
+}
+
+.btn-encriptar{
+    background-color: #adc6ca;
+    border: 1px solid #ffffff;
+    border-radius: 24px;
+    color:white ;
+    cursor: pointer;
+    height: 67px;
+    width: 328px;
+}
+
+.Informacion{
+    color:#0b0b0b;
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: 600;
+    color: #0d5361;
+    text-shadow: #10799c94 
+
+}
+
+.creado{
+    font-size: 30px;
+    margin-left: 400px;
+    margin-top: 180px;
+    padding-left: 100px;
+    position: fixed;
+    color: #0d5361;
+    text-shadow: #10799c94 
+   
+}
+.fondo{
+    background-image:url("./imagenes/h_cibernetico_4.png");
+    background-size: 100% 140%;
+ 
+    
+   
+
+    
+}
